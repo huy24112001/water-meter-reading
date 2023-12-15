@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "537955540199",
+    "project_id": "water-meter-reading-app-1713d",
+    "storage_bucket": "water-meter-reading-app-1713d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537955540199:android:d497c36475d1988f871642",
+        "android_client_info": {
+          "package_name": "com.example.water_meter_reading_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWzsSlhFQG2O9Y07wi2-z3i7MAzt8zOj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

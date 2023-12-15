@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please scan your QR code to identify the device"
+        android:textAlignment="center"
+        android:textColor="#2A2C2B"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.060000002" />
+
+    <Button
+        android:id="@+id/btnScannerQR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scanner QR"
+        app:cornerRadius="7sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24" />
+
+    <EditText
+        android:id="@+id/edtID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="ID"
+        android:enabled="false"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hintText"
+        android:textCursorDrawable="@drawable/pixel_art"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <EditText
+        android:id="@+id/edtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="Installation Date"
+        android:enabled="false"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hintText"
+        android:textCursorDrawable="@drawable/pixel_art"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <EditText
+        android:id="@+id/edtLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="Installation Location"
+        android:enabled="false"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hintText"
+        android:textCursorDrawable="@drawable/pixel_art"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <EditText
+        android:id="@+id/edtSupplier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="Supplier"
+        android:enabled="false"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hintText"
+        android:textCursorDrawable="@drawable/pixel_art"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <EditText
+        android:id="@+id/edtData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="Operational Data"
+        android:enabled="false"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hintText"
+        android:textCursorDrawable="@drawable/pixel_art"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        app:cornerRadius="7sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
